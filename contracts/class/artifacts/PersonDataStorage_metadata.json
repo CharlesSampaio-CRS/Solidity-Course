@@ -7,6 +7,44 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getIsBrazilian",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "name",
 				"outputs": [
 					{
@@ -16,6 +54,45 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_brazilian",
+						"type": "bool"
+					}
+				],
+				"name": "setIsBrazilian",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +109,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/class-1/PersonDataStorage.sol": "PersonDataStorage"
+			"contracts/class/PersonDataStorage.sol": "PersonDataStorage"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +123,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/class-1/PersonDataStorage.sol": {
-			"keccak256": "0xa8fd25d6f3e7a8676b3345845a57b56b3d66c704d6c3a5d4f2bb4215578ac7a9",
+		"contracts/class/PersonDataStorage.sol": {
+			"keccak256": "0x2cb24ebcf1ccaa8eea12bea80dd4f1a2563e57c463751304af3de66d67e6cbe8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4afa069e01c607ce495964de81eae0b75c652f3f60a5e0cd897e7f2057381b03",
-				"dweb:/ipfs/QmVguVJdUHMRoyngZpSP12vNapQ4xLT77PsVX8W9qf6bjv"
+				"bzz-raw://1d95f1e826be51813ef4aef6a466511aec63b560a7b68445d53529168e01f55b",
+				"dweb:/ipfs/QmbotFhJ7x3MTnuBWqqVLPYJujuJiWBzhz5NDKvb33CAcH"
 			]
 		}
 	},
